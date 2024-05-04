@@ -5,12 +5,13 @@ import "fmt"
 const Pi float64 = 3.1415
 
 func main() {
-	fmt.Println(Pi) // Pi is accesible 
+	fmt.Println(Pi) // Pi is accesible
 	// Pi = 3.14 // this will cause an error because Pi is a constant
 	var name string = "Jeemt"
 	// name = 25 // this will cause an error because name is a string
-	fmt.Println("Hello from  " + name)// Hello from  Jeemt
-	fmt.Printf("variable's type is: %T\n", name)//	string
+	fmt.Println("Hello from  " + name)           // Hello from  Jeemt
+	fmt.Printf("variable's type is: %T\n", name) //	string
+	//yeah, we can use %T to get the type of a variable
 
 	var isWorking bool = false
 
